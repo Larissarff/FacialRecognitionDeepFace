@@ -25,13 +25,11 @@ backends = [
 ]
 
 result = DeepFace.verify(
-    img1_path = 'DataFrame/data/rihana_01.jpg',
-    img2_path = 'DataFrame/data/rihana_02.jpg',
+    img1_path = 'DataFrame/data/Eminem/eminem_04.jpg',
+    img2_path = 'DataFrame/data/Eminem/eminem_05.jpg',
     model_name = models[0],
     enforce_detection = False, # nao quero que force detecção em rostos
     detector_backend = backends[7],
 )
-# quanto menor for a "distance" entre uma imagem e outra, mais provavel que seja a mesma pessoa
-# se 'threshold' for 0.4, significa que se a distância for menor que 0.4, é a mesma pessoa
 
 print(result)
