@@ -1,7 +1,7 @@
 from deepface import DeepFace
 import matplotlib.pyplot as plt
 
-path = r"./DataFrame/tests/teste_03.jpg"
+path = r"./DataFrame/tests/teste_02.jpg"
 
 obj = DeepFace.analyze(
     img_path=path,
