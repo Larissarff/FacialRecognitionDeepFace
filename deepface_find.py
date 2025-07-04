@@ -34,4 +34,3 @@ dfs = DeepFace.find(
 
 for x in range(len(dfs)):
     print(dfs[x])
-
