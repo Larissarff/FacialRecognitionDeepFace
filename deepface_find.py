@@ -25,7 +25,7 @@ backends = [
 ]
 
 dfs = DeepFace.find(
-    img_path="DataFrame/tests/teste_03.jpg",
+    img_path="DataFrame/data/Eminem/eminem_02.jpg",
     db_path="DataFrame/data",
     enforce_detection=False,
     model_name=models[0],
